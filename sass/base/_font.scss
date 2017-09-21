@@ -1,0 +1,18 @@
+// ===========
+// body font mixin
+// ===========
+
+@mixin body-font ($fontsize : 13px , $fontfamily : null , $fontweight: 400 , $line_height : null ) {
+  body {
+    font-size: $fontsize;
+    font-family: $fontfamily;
+    font-weight: $fontweight;
+    line-height: $line_height;
+    text-rendering: optimizeLegibility;
+     -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+
+
